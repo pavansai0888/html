@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>FORM</title>
+	</head>
+	<body>
+		<form action="" method="POST">
+			
+			<fieldset><br>
+
+				 <legend color="blue">Form</legend>
+
+			Name: <input type="text" name="Name" placeholder="Enter your name" size="42"/><br></br>
+			
+
+			Mobile Number:<input type="Number" name="MobileNUmber" minlength="13" /><br></br>
+			
+			
+			Email Id:<input type="text" name="email" maxlength="35" size="40" required /><br></br>
+			
+
+			Password:<input type="Password" name="pwd" minlength="8" maxlength="15" size="39" required /><br></br>
+			
+
+			Gender:
+					<br><input type="radio" name="gender" value="male" checked> Male
+					<input type="radio" name="gender" value="female" > Female<br></br>
+			
+
+			Course Joined:
+					<br><input type="checkbox" name="Course" value="JAVA" >JAVA
+					<input type="checkbox" name="Course" value="PHP" >PHP</br><br>
+			
+
+			Upload Doubts:<br>
+			Upload:
+			 <input type="file" name="file" multiple="multiple"><br></br>
+			 
+
+			 Start Date
+      		 <input type="date" name="sdate" min="1999-01-02">&nbsp;
+      		 End Date
+      		 <input type="date" name="edate" min="2018-05-31"><br></br>
+
+
+      	City:&nbsp; 
+        <select name="city">
+          <option value="Hyderabad">Hyderabad</option>
+          <option value="Chennai">Chennai</option>
+          <option value="Delhi">Delhi</option>
+          <option value="Kolkata">Kolkata</option>
+          <option value="Bangalore">Bangalore</option>
+          <option value="Ahmedabad">Ahmedabad</option>
+          <option value="Pune">Pune</option>
+      </select> <br/><br/>
+
+
+      Min Class Hours :
+      <input type="number" name="Hours" min="10" max="60"><br></br>
+
+      Comments:<br/>
+      <textarea rows="8" cols='45' name='comment'></textarea><br/><br/>
+
+
+      <input type='submit' name='submit' value="submit" />
+
+      <input type='reset' name='reset' value='reset'/>
+  
+       
+
+   </fieldset>
+
+  </form>
+
+	</body>
+</html>
